@@ -1,0 +1,477 @@
+body {
+background: #4b2f3d;
+color: white;
+font-family: "Work Sans", sans-serif;
+}
+
+
+   .container {
+max-width: 1100px;
+margin: auto;
+padding: 20px;
+}
+
+
+
+
+
+
+.top-header {
+background: #ffe3ee;
+padding: 15px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.top-header .brand {
+font-family: "Quattrocento", serif;
+font-size: 2rem;
+}
+
+
+
+
+.FaithLogo{
+display: flex;
+justify-content: center;
+width: 17rem;
+height: 17;
+flex-shrink: 0;
+aspect-ratio: 289/280;
+;}
+
+
+.ul{
+ display:flex;
+   justify-content:center;
+}
+
+
+
+
+
+.main-nav ul {
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+
+
+
+ a {
+color: #f1eef0;
+text-decoration: none;
+list-style: none;
+font-weight: 600;
+}
+
+
+
+
+.tagline-box {
+   background: #2E2A2B;  
+   width: 100%;
+   max-width: 1200px;    
+   margin: 0 auto;
+   padding: 45px 0;     
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+
+
+
+
+.hero-img {
+   display: block;
+   margin: 0 auto;        
+   width: 100%;           
+   max-width: 1200px;   
+   height: auto;
+   opacity: 100;        
+}
+.hero {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 100%;
+    display: flex;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;             
+    left: 50%;            
+    transform: translate(-20%, -50%);
+    text-align: right;
+
+}
+
+.hero-text h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Work Sans";
+  
+
+}
+
+
+
+
+
+nav {
+    background: #2E2A2B;
+    width: 100%;
+    max-width: 1200px;     
+    margin: 0 auto;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;             
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav a { 
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.FaithLogo {
+    width: 140px;
+    height: auto;
+    display: block;
+}
+
+  
+
+h1 {
+text-align:  left;
+ color: white;
+ font-size: 4.4375rem;
+ font-style: normal;
+   
+font-weight: 400;
+line-height: normal;    
+margin-bottom: .5px;
+    font-family:"Wittgenstein" ;}
+
+
+        
+        
+
+header{ 
+  color: #FFF;
+text-align: center;
+font-family: Wittgenstein;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+width: 108.625rem;
+height: 7.125rem;
+flex-shrink: 0;}
+
+p{
+  color: var(--Foundation-Green-green-3, #AFC4A5);
+font-family: "Work Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+
+  width: 1300px;
+  margin: auto;
+height: 19.125rem;
+flex-shrink: 0;
+}
+
+
+
+main {
+   max-width: 1200px;       
+   margin: 60px auto;      
+   display: flex;
+   justify-content: center; 
+   gap: 2rem;
+   flex-wrap: wrap;        
+}
+
+.news {
+   width: 360px;              
+   background: #2E2A2B;
+   border-radius: 8px;
+   overflow: hidden;          
+}
+
+.news p {
+   font-size: 1.5rem;      
+   line-height: 1.4;
+   width: auto;         
+   margin: 10px 15px;    
+   text-align: left;      
+   color: white;        
+}
+
+.news button{
+    padding:12px 45px;
+    width:200px;
+    font-size: 20px;
+    text-align: center;
+   border-radius: 1.75rem;
+border: 1px solid #000;
+background: var(--Foundation-Grey-Red-red-500, #B27092);
+ color: white;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.news img {
+   width: 100%;              
+   height: 220px;           
+   object-fit: cover;        
+   display: block;
+}
+
+
+
+.team-img {
+       width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
+    margin: content-box;
+    overflow: auto;
+}
+
+.team-header-img {
+    display: block;
+    width: 200%;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+
+.team-profile {
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+
+.team-profile h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.team-profile p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #d6e4d0;
+    width: 85%;
+    margin: auto;
+}
+
+.team-join-box {
+    text-align: center;
+    margin: 70px auto;
+}
+
+.team-join-box h2 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+}
+
+.join-btn {
+    padding: 12px 45px;
+    font-size: 2rem;
+    background: #b27092;
+    border: none;
+    border-radius: 1.7rem;
+    color: white;
+    cursor: pointer;
+}
+
+.team-section {
+    width: 100%;
+    max-width: 1400px;
+    margin: 80px auto;
+
+    display: flex;                    
+    justify-content: space-between;   
+                          
+
+    background: #2d262b;
+    background-image: url('Design.png');
+    background-repeat: no-repeat;
+    background-size: contain;         
+    background-position: center;
+
+    padding: 50px 20px;              
+}
+
+
+.team-card {
+    position: relative;
+    padding: 60px 50px;
+    color: #dfead7;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+.team-card h2 {
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.team-card p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    position: relative;
+    z-index: 2;
+}
+
+
+.join-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.join-card h2 {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+}
+
+.join-btn {
+    padding: 14px 45px;
+    font-size: 1.2rem;
+    background: #b27092;
+    border: none;
+    border-radius: 1.75rem;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;}
+
+
+
+
+
+
+
+                    
+.footer-content {
+    max-width:1200px;
+    border-radius: 8px;
+     padding: 20px 0;
+    margin: 20px auto 0;
+    text-align: right;
+}
+
+
+.footer {
+    background-image: url('Footer.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 20px;    
+    text-align: center;      
+    color: white;
+}
+
+
+.footer {
+    margin-top: 40px;
+    padding: 0 20px 60px;
+    color: white;
+}
+
+
+.footer-banner {
+    width: 50%;
+    max-width: 200px;
+    height: 420px;        
+   
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.footer p {
+    font-size: 1.3rem;
+    margin: 6px 0;
+    height: auto;
+   color: white;
+   text-align: left;   
+   line-height: 1.4;
+}
+
+.footer button{
+    padding:12px 45px;
+    width:200px;
+    font-size: 20px;
+    text-align: center;
+   border-radius: 1.75rem;
+   background: var(--Foundation-Grey-Red-red-500, #B27092);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
